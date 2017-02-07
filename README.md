@@ -1,3 +1,3 @@
 # hello-java
 
-Testing test
+Simple java programs, beginner level
