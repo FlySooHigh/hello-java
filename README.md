@@ -1,5 +1,5 @@
 # hello-java
 
-Simple java programs, beginner level
+Simple java programs
 
 
