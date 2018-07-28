@@ -53,7 +53,8 @@ public class Solution {
      *                                                      *
      *                                                      ***
      */
-    private static void printAscRepresentation(int ascLetterLen, int ascLetterHt, char[][] matrix, StringBuilder toPrint, HashMap<Character, Integer> dictionary) {
+    private static void printAscRepresentation(int ascLetterLen, int ascLetterHt, char[][] matrix,
+                                               StringBuilder toPrint, HashMap<Character, Integer> dictionary) {
         for (int i = 0; i < ascLetterHt; i++) {
             for (char letter : toPrint.toString().toCharArray()) {
                 Integer letterPosition = dictionary.get(letter);
